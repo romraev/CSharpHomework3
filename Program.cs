@@ -26,7 +26,8 @@
 // Console.Write("Hello, friend. Enter your number: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Это число палиндром? - " + Palindrom(number));
+// if (number < 10) Console.WriteLine("Нужно больше цифр!");
+// else Console.WriteLine("Это число палиндром? - " + Palindrom(number));
 
 // Task 21.
 
