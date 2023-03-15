@@ -30,23 +30,40 @@
 
 // Task 21.
 
-double Distance(int x1, int y1, int z1, int x2, int y2, int z2)
+// double Distance(int x1, int y1, int z1, int x2, int y2, int z2)
+// {
+//     return Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1));
+// }
+
+// int EnterCoordinate(string message)
+// {
+//     Console.Write(message);
+//     int number = Convert.ToInt32(Console.ReadLine()); 
+//     return number;
+// }
+
+// int x1 = EnterCoordinate("Enter x1: ");
+// int y1 = EnterCoordinate("Enter y1: ");
+// int z1 = EnterCoordinate("Enter z1: ");
+// int x2 = EnterCoordinate("Enter x2: ");
+// int y2 = EnterCoordinate("Enter y2: ");
+// int z2 = EnterCoordinate("Enter z3: ");
+
+// Console.Write("Distnce equals: " + Distance(x1, y1, z1, x2, y2, z2));
+
+// Task 3.
+
+void Cube(int N)
+
 {
-    return Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1));
+    int count = 1;
+    while (count <= N)
+    {
+        Console.WriteLine(count + " - " + Math.Pow(count, 3));
+        count++;
+    }
 }
-
-int EnterCoordinate(string message)
-{
-    Console.Write(message);
-    int number = Convert.ToInt32(Console.ReadLine()); 
-    return number;
-}
-
-int x1 = EnterCoordinate("Enter x1: ");
-int y1 = EnterCoordinate("Enter y1: ");
-int z1 = EnterCoordinate("Enter z1: ");
-int x2 = EnterCoordinate("Enter x2: ");
-int y2 = EnterCoordinate("Enter y2: ");
-int z2 = EnterCoordinate("Enter z3: ");
-
-Console.Write("Distnce equals: " + Distance(x1, y1, z1, x2, y2, z2));
+Console.Write("Введите N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Вот таблица предшествующих чисел в кубе:");
+Cube(N);
