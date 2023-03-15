@@ -48,7 +48,7 @@
 // int z1 = EnterCoordinate("Enter z1: ");
 // int x2 = EnterCoordinate("Enter x2: ");
 // int y2 = EnterCoordinate("Enter y2: ");
-// int z2 = EnterCoordinate("Enter z3: ");
+// int z2 = EnterCoordinate("Enter z2: ");
 
 // Console.Write("Distnce equals: " + Distance(x1, y1, z1, x2, y2, z2));
 
