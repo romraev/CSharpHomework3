@@ -53,17 +53,17 @@
 
 // Task 3.
 
-void Cube(int N)
+// void Cube(int N)
 
-{
-    int count = 1;
-    while (count <= N)
-    {
-        Console.WriteLine(count + " - " + Math.Pow(count, 3));
-        count++;
-    }
-}
-Console.Write("Введите N: ");
-int N = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Вот таблица предшествующих чисел в кубе:");
-Cube(N);
+// {
+//     int count = 1;
+//     while (count <= N)
+//     {
+//         Console.WriteLine(count + " - " + Math.Pow(count, 3));
+//         count++;
+//     }
+// }
+// Console.Write("Введите N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Вот таблица предшествующих чисел в кубе:");
+// Cube(N);
